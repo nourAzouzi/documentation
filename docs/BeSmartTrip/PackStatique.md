@@ -140,7 +140,7 @@ Des actions sont également disponibles pour chaque offre, permettant à l'utili
 De plus, une fonction de recherche est disponible pour permettre à l'utilisateur de trouver rapidement une offre spécifique en saisissant des mots-clés pertinents.
 
 ### Comment configurer une offre ? 
-#### Comment Intégrer les détails de l’offre ?  
+### Comment Intégrer les détails de l’offre ?  
 **Description :** Cette étape est dédiée à la saisie des détails de l'offre
 ![Auth](/img/Trip/détails_offre.png)
 
@@ -153,7 +153,7 @@ L'utilisateur est invité à remplir les champs relatifs aux:
 
 Cette étape est cruciale pour créer des offres complètes et informatives, offrant aux clients toutes les informations nécessaires pour prendre une décision éclairée lors de la réservation du pack de voyages. 
 
-#### Comment Intégrer les informations générales de l’offre ?
+### Comment Intégrer les informations générales de l’offre ?
 **Description :** Cette étape est consacrée à la saisie des informations générales de l'offre, offrant à l'utilisateur l'opportunité de fournir des détails importants pour informer les clients potentiels. 
 
 ![Auth](/img/Trip/info_general_offre.png)
@@ -169,24 +169,31 @@ L'utilisateur est invité à remplir les champs relatifs aux:
 Ces informations sont essentielles pour aider les clients à comprendre les aspects pratiques de l'offre, tels que les exigences d'entrée, les équipements recommandés, les précautions de santé à prendre, les options gastronomiques disponibles et d'autres détails pratiques utiles pendant le voyage. 
 
 En fournissant ces détails de manière claire et exhaustive, l'utilisateur peut améliorer l'expérience des clients en leur offrant des informations détaillées et pertinentes sur l'offre proposée 
- #### Comment Intégrer les descriptions des services de l’offre ?  
+ ### Comment Intégrer les descriptions des services de l’offre ?  
  **Hébergement :**  
 
-Cette interface est dédiée à la configuration détaillée du service d'hébergement dans le cadre de la création de packs de voyage. Voici les principales fonctionnalités et étapes disponibles :
+Cette interface est dédiée à la configuration détaillée du service d'hébergement dans le cadre de la création de packs de voyage. 
+
+![Auth](/img/Trip/first_step_heberg.png)
 
 -----
 
-**-1-** Configuration de l'Hôtel par Destination : 
+**Configuration de l'Hôtel par Destination :**  
+Voici les principales fonctionnalités et étapes disponibles afin d'ajouter votre hébérgement :
 
-- Pour les packages multi-destinations, l'utilisateur configure les hôtels pour chaque destination individuellement. 
+:::tip multi-destination 
+ Pour les packages multi-destinations, l'utilisateur configure les hôtels pour chaque destination individuellement. 
+::: 
 
-Configuration d'un Hôtel : 
+**Configuration d'un Hôtel :** 
+
+![Auth](/img/Trip/service_heberg_vide.png)
 
 - Téléchargement de Photos : L'utilisateur télécharge au moins une photo de l'hôtel pour l'illustrer. 
 
 - Nom de l'Hôtel : Saisie du nom de l'hôtel dans trois langues différentes (français, anglais et arabe). 
 
-- Description de l'Hôtel : Fourniture d'une description de l'hôtel dans trois langues différentes. 
+- Description de l'Hôtel : Fourniture d'une description de l'hôtel dans trois langues différentes (français, anglais et arabe). 
 
 - Catégorie de l'Hôtel : Saisie de la catégorie de l'hôtel. 
 
@@ -194,32 +201,136 @@ Configuration d'un Hôtel :
 
 - Dates de Check-in et Check-out : Indication des dates d'arrivée et de départ de l'hôtel, respectant les dates de l'offre. 
 
-- Ajout et Suppression d'Hôtels : Possibilité d'ajouter ou de supprimer un ou plusieurs hôtels. 
-
-- Minimum un Hôtel par Destination : Si le service d'hébergement est inclus dans le package, au moins un hôtel doit être fourni pour chaque destination. 
-
 - Arrangement & Restauration : 
 
     - Type d'Arrangement et Restauration : Sélection du type d'arrangement et de restauration parmi plusieurs options (LPD, DP, PC, AI). 
 
     - Description : Fourniture d'une description pour le type d'arrangement et de restauration ans trois langues différentes (français, anglais et arabe). 
-
-- Chambre : 
-
-    - Titre et Description de la Chambre : Saisie du titre et de la description de la chambre dans trois langues différentes (français, anglais et arabe). 
-
-    - Type d'Hébergement, Type de Chambre et Vue : Sélection des différentes caractéristiques de la chambre à partir de menus déroulants. 
-
-    - Stock et Politique de Prix : Indication du stock de chambres disponibles et de la politique de tarification (vente par chambre entière ou par lit). 
-
-    - Capacité de la Chambre : Spécification du nombre minimum et maximum de personnes pouvant être accueillies dans la chambre. 
-
-    - Gestion des Combinaisons de Passagers : Possibilité de générer et de gérer toutes les combinaisons possibles de passagers (adultes, enfants). 
-
-- Photos : 
+    - Photos : 
 
     - Gestion des Photos : Visualisation, enregistrement, modification ou suppression des photos téléchargées. 
 
+ **Pour ajouter des chambres, l'utilisateur doit tout d'abord sauvegarder les informations de l'hôtel puis procéde à l'ajout des chambres**   
+
+ ![Auth](/img/Trip/ajout_chambre.png)
+
+- Pour la configuration de la Chambre : 
+
+![Auth](/img/Trip/info_chambre.png)
+
+L'utilisateur est invité à déterminer : 
+
+    - Titre et Description de la Chambre : Saisie du titre et de la description de la chambre dans trois langues différentes (français, anglais et arabe). 
+
+    - Type de logemment, Type de Chambre et Vue : Sélection des différentes caractéristiques de la chambre à partir de menus déroulants. 
+
+    - Stock : saisie du stock de chambres disponibles
+    
+    - Politique de Prix : choix du politique de tarification (vente par chambre entière ou par lit). 
+
+    - Capacité de la Chambre : Spécification du nombre minimum et maximum de personnes pouvant être accueillies dans la chambre à partir de menus déroulants.  
+
+    - Gestion des Combinaisons de personnes : Possibilité de générer et de gérer toutes les combinaisons possibles de pax (adultes, enfants), l'utilisateur peut activer ou desactiver certaines combinaisons selon ses préférences.
+
+
+
 -----
 
-Une fois que l'utilisateur a configuré les hôtels pour chaque destination, une liste des hôtels configurés sera affichée. Cette liste présente les informations pertinentes sur chaque hôtel configuré, ce qui permet à l'utilisateur de visualiser et de gérer facilement les détails de l'hébergement pour chaque destination. Les éléments affichés dans cette liste peuvent inclure  
+Une fois que l'utilisateur a configuré les hôtels pour chaque destination, une liste des hôtels configurés sera affichée. 
+
+![Auth](/img/Trip/list_hotel.png)
+
+Cette liste présente les informations pertinentes sur chaque hôtel configuré, ce qui permet à l'utilisateur de visualiser et de gérer facilement les détails de l'hébergement pour chaque destination. Les éléments affichés dans cette liste peuvent inclure :
+- Le nom de l'hôtel
+- Ajout et Suppression d'Hôtel : Possibilité d'ajouter ou de supprimer un hôtels.
+- La catégorie de l'hôtel
+- Les dates d'arrivé et de départ
+- Le type d'arrangement 
+- Le nombre de chambre configuré dans cet hôtel
+
+:::danger Minimum un Hôtel par Destination 
+ Si le service d'hébergement est inclus dans le package, au moins un hôtel doit être fourni pour chaque destination. 
+::: 
+
+#### Activités 
+
+Cette interface est dédiée à la configuration détaillée du service d'activité dans le cadre de la création de packs de voyage.
+
+![Auth](/img/Trip/service_activité_vide.png)
+
+**Configuration d'une activité**
+
+![Auth](/img/Trip/service_activités.png)
+
+- Téléchargement de Photos : L'utilisateur télécharge au moins une photo de l'activité pour l'illustrer.
+
+- Nom de l'Hôtel : Saisie du nom de l'hôtel dans trois langues différentes (français, anglais et arabe).
+
+- Description de l'Hôtel : Fourniture d'une description de l'hôtel dans trois langues différentes (français, anglais et arabe).
+
+- Date et heure de départ : Indication du date et l'heure de départ de l'activité, respectant les dates de l'offre.
+
+- Photos :
+
+    - Gestion des Photos : Visualisation, enregistrement, modification ou suppression des photos téléchargées.
+
+----
+
+Une fois que l'utilisateur a configuré les activités pour chaque destination, une liste des activités configurées sera affichée.
+
+![Auth](/img/Trip/list_activities.png)
+
+Cette liste présente les informations pertinentes sur chaque activité configurée, ce qui permet à l'utilisateur de visualiser et de gérer facilement les détails des activités pour chaque destination. Les éléments affichés dans cette liste peuvent inclure :
+
+- Le nom de l'activité
+- Ajout et Suppression l'activité : Possibilité d'ajouter ou de supprimer une activité.
+- La date de l'activité
+- L'heure de départ de l'activité
+
+:::danger Minimum une activité
+ Si le service d'activités est inclus dans le package, au moins une activité doit être fourni pour le pack. 
+::: 
+
+
+#### Visites  
+
+Cette interface est dédiée à la configuration détaillée du service de visite dans le cadre de la création de packs de voyage.
+
+![Auth](/img/Trip/list_visites.png)
+
+**Configuration d'une visite**
+
+![Auth](/img/Trip/info_visite.png)
+
+- Téléchargement de Photos : L'utilisateur télécharge au moins une photo de la visite pour l'illustrer.
+
+- Nom de la visite : Saisie du nom de la visite dans trois langues différentes (français, anglais et arabe).
+
+- Description de la visite : Fourniture d'une description de la visite dans trois langues différentes (français, anglais et arabe).
+
+- Date et heure de départ : Indication du date et l'heure de départ de la visite, respectant les dates de l'offre.
+
+- Durée : Indication de la durée de la visite
+- Lieux à visiter : Fourniture d'une adresse du lieux à visiter
+- Photos :
+
+    - Gestion des Photos : Visualisation, enregistrement, modification ou suppression des photos téléchargées.
+
+----
+
+Une fois que l'utilisateur a configuré les visites pour chaque destination, une liste des visites configurées sera affichée.
+
+![Auth](/img/Trip/list_visites.png)
+
+Cette liste présente les informations pertinentes sur chaque visite configurée, ce qui permet à l'utilisateur de visualiser et de gérer facilement les détails des visites pour chaque destination. Les éléments affichés dans cette liste peuvent inclure :
+
+- Le nom de la visite
+- Ajout et Suppression la visite : Possibilité d'ajouter ou de supprimer une visite.
+- La date de la visite
+- La durée de la visite
+- Le lieux à visiter 
+- L'heure de départ de la visite
+
+:::danger Minimum une visite
+ Si le service des visites est inclus dans le package, au moins une visite doit être fournie pour le pack. 
+::: 
