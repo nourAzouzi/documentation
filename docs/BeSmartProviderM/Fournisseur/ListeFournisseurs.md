@@ -56,11 +56,32 @@ Cette interface vous permet de visualiser, ajouter, modifier et supprimer des fo
 - Cliquez sur le bouton "Ajouter fournisseur".
 - Remplissez le formulaire avec les informations requises telles que le nom, l'emplacement, le type et l'adresse e-mail du fournisseur...
 - Cliquez sur "Enregistrer" pour ajouter le fournisseur à la liste.
+:::tip 
+Pour un accompagnement pas à pas sur comment ajouter un nouveau fournisseur, veuillez consulter l'article suivant qui détaille chaque étape du processus.
+:::
+## Voir détails fournisseur
+Une fois que vous avez cliqué sur l'icône d'œil, une fenêtre pop-up apparaît avec les détails suivants :
+![ProviderManager](/img/PM/résumé_fournisseur.png)
+- **Nom du fournisseur :** Nom officiel de l'entreprise.
+- **Type :** Si le fournisseur est une Société ou un Individu privé.
+- **Emplacement :** Si le fournisseur est Local ou Étranger.
+- **Site web :** Lien vers le site web du fournisseur.
+- **Email :** Adresse email pour contacter le fournisseur.
+- **Téléphone mobile :** Numéro de contact principal.
+- **Adresse :** Adresse physique complète du fournisseur.
+- **Type d'activité :** Nature de l'activité du fournisseur.
+- **Forme juridique :** Statut juridique de l'entreprise (par exemple, SARL, SA).
+- **Matricule fiscale :** Numéro d'identification fiscale de l'entreprise.
+- **Registre commercial :** Numéro d'enregistrement au registre du commerce.
+
+:::tip 
+Pour fermer le résumé, cliquez sur l'icône de fermeture (X) située dans le coin supérieur droit de la fenêtre pop-up.
+:::
 
 ## Modifier un fournisseur existant
 
 - Dans la colonne Actions du fournisseur que vous souhaitez modifier, cliquez sur l'icône du crayon.
-- Modifiez les informations nécessaires dans le formulaire qui s'affiche.
+- Modifiez les informations nécessaires dans le formulaire qui s'affiche :
 
 ![ProviderManager](/img/PM/edit_fournisseur.png)
 
@@ -76,6 +97,8 @@ Si l'utilisateur clique sur le bouton "Annuler" après avoir effectué des modif
 ### Onglet "Portfeuille"
 
 Section actuelle où vous pouvez gérer vos transactions et consulter votre solde.
+
+![ProviderManager](/img/PM/wallet.png)
 
 :::danger Enregistrement d'un fournisseur
 Avant de pouvoir accéder à la section "Portefeuille", vous devez enregistrer avec succès un fournisseur.
@@ -93,12 +116,91 @@ Chaque transaction dans la liste est détaillée par les éléments suivants :
     - **Méthode de paiement :** Indique le type de transaction (Virement, Chèque, Espèces).
     - **Référence :** Numéro de référence unique pour chaque transaction.
     - **Montant :** Montant de la transaction.
-    - **Devise :** Devise utilisée pour la transaction (TND).
+    - **Devise :** Devise utilisée pour la transaction.
     - **Date :** Date de la transaction.
 
 **Total des transactions :** Le montant total de toutes les transactions affichées est indiqué en haut à droite de la liste des transactions.
 
+:::tip
+À partir de la liste des transactions, chaque transaction est cliquable et l'utilisateur sera redirigé vers la page de détail de cette transaction
+:::
+
+Les informations suivantes seront affichées :
+
+- Détails de la Transaction
+    - Nom du bénéficiaire : Le nom de la personne ou de l'entité qui recevra l'argent.
+    - Montant : Le montant de la transaction.
+    - Devise : La devise utilisée pour la transaction.
+    - Modes de Paiement
+        - Mode de paiement : Espèces
+            - Nom du bénéficiaire : Le nom de la personne ou de l'entité qui recevra l'argent.
+            - Montant : Le montant de la transaction.
+            - Devise : La devise utilisée pour la transaction.
+        - Mode de paiement : Chèque
+            - Nom du bénéficiaire : Le nom de la personne ou de l'entité qui recevra l'argent.
+            - Numéro de compte : Le numéro de compte bancaire du bénéficiaire.
+            - Date d'émission du chèque : La date à laquelle le chèque a été émis.
+            - Montant : Le montant du chèque.
+            - Devise : La devise utilisée pour la transaction.
+            - Nom de la banque : Le nom de la banque émettrice du chèque.
+            - Une justificative : Une justificative du chèque (ex : image du chèque).
+        - Mode de paiement : Transfert
+            - Nom du bénéficiaire : Le nom de la personne ou de l'entité qui recevra l'argent.
+            - Montant : Le montant de la transaction.
+            - Devise : La devise utilisée pour la transaction.
+            - Numéro de compte : Le numéro de compte bancaire du bénéficiaire.
+            - Nom de la banque : Le nom de la banque du bénéficiaire.
+            - Code BIC : Le code BIC (Bank Identifier Code) de la banque du bénéficiaire.
+            - IBAN : Le numéro IBAN (International Bank Account Number) du bénéficiaire.
+            - Importer une justificative : Une justificative du transfert (ex : reçu de virement).
+
+
+
 **Pagination :** Vous pouvez naviguer entre les pages des transactions en utilisant les boutons de pagination situés en bas à droite de la liste des transactions.
+
+**Ajouter une transaction :** 
+- Utilisez le bouton "+ Ajouter" pour enregistrer une nouvelle transaction dans votre portefeuille.
+
+![ProviderManager](/img/PM/ajouter_transaction.png)
+
+- Choisissez le mode de paiement : Espèces, Chèque ou Transfert.
+
+**Détails demandés pour chaque mode de paiement :**
+
+#### Mode de paiement : **Espèces**
+
+![ProviderManager](/img/PM/ajout_trans_especes.png)
+
+        - Nom du bénéficiaire : Indiquez le nom de la personne ou de l'entité qui recevra l'argent.
+        - Montant : Saisissez le montant de la transaction.
+        - Devise : Sélectionnez la devise utilisée pour la transaction.
+
+
+#### Mode de paiement : **Chèque**
+
+![ProviderManager](/img/PM/ajout_trans_cheque.png)
+
+    - Nom du bénéficiaire : Indiquez le nom de la personne ou de l'entité qui recevra l'argent.
+    - Numéro de compte : Indiquez le numéro de compte bancaire du bénéficiaire.
+    - Date d'émission du chèque : Sélectionnez la date à laquelle le chèque a été émis.
+    - Montant : Saisissez le montant du chèque.
+    - Devise : Sélectionnez la devise utilisée pour la transaction.
+    - Nom de la banque : Indiquez le nom de la banque émettrice du chèque.
+    - Importer une justificative : Ajoutez une justificative du chèque (ex : image du chèque).
+
+#### Mode de paiement : **Transfert**
+
+![ProviderManager](/img/PM/ajout_trans_transfert.png)
+
+    - Nom du bénéficiaire : Indiquez le nom de la personne ou de l'entité qui recevra l'argent.
+    - Montant : Saisissez le montant de la transaction.
+    - Devise : Sélectionnez la devise utilisée pour la transaction.
+    - Numéro de compte : Indiquez le numéro de compte bancaire du bénéficiaire.
+    - Nom de la banque : Indiquez le nom de la banque du bénéficiaire.
+    - Code BIC : Indiquez le code BIC (Bank Identifier Code) de la banque du bénéficiaire.
+    - IBAN : Indiquez le numéro IBAN (International Bank Account Number) du bénéficiaire.
+    - Importer une justificative : Ajoutez une justificative du transfert (ex : reçu de virement).
+
 
 ## Supprimer un fournisseur
 

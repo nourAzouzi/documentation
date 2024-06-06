@@ -60,6 +60,25 @@ Cette interface vous permet de visualiser, ajouter, modifier et supprimer des ca
 - Remplissez le formulaire avec les informations requises telles que le nom, ...
 - Cliquez sur "Enregistrer" pour ajouter le canal à la liste.
 
+## Voir les détails d'un canal
+Une fois que vous avez cliqué sur l'icône, une fenêtre pop-up apparaît avec les détails suivants :
+
+![ProviderManager](/img/PM/résumé_canal.png)
+
+- **Logo du canal :** Affiche le logo ou l'image associée au canal.
+- **Nom du canal :** Nom officiel du canal.
+- **URL du canal :** Lien vers l'URL du canal.
+- **Identifiant :** Identifiant utilisé pour se connecter au canal.
+- **Mot de passe :** Mot de passe associé à l'identifiant du canal.
+- **Fournisseur :** Nom du fournisseur associé au canal.
+- **Devise :** Devise utilisée pour les transactions sur le canal.
+- **Type de tarif envoyé au canal :** Indique si les tarifs envoyés au canal incluent ou non des taxes et des commissions.
+- **Options disponibles :**
+    - Avec taxes
+    - Sans taxes
+    - Avec commission
+    - Sans commission
+    
 ## Modifier un canal existant
 
 - Dans la colonne Actions du canal que vous souhaitez modifier, cliquez sur l'icône du crayon.
@@ -77,6 +96,8 @@ Dès qu'un ou plusieurs champs sont modifiés, le bouton "Annuler" devient activ
 Si l'utilisateur clique sur le bouton "Annuler" après avoir effectué des modifications, toutes les modifications seront annulées et les champs retourneront à leur état initial avant modification.
 
 ### Onglet "Rapprochement"
+
+### Onglet "Configuration de prévente"
 
 
 ## Supprimer un canal
