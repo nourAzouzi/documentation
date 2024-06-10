@@ -43,7 +43,7 @@ Choisissez parmi les options suivantes pour l'affichage de la description de l'�
 
 
 ## Personnalisation des résultats d'affichage :  Résultats de recherche
-### Configuration initiale des canaux :
+### Configuration initiale des canaux 
 - Sélectionnez votre liste de canaux (fournisseurs).
 - Ajoutez et organisez les canaux selon vos préférences.
 
@@ -51,7 +51,7 @@ Choisissez parmi les options suivantes pour l'affichage de la description de l'�
 
 > **Astuce :** Vous devez avoir au moins un canal dans votre liste pour pouvoir appliquer les configurations.
 
-### Application des filtres :
+### Application des filtres 
 Choisissez comment les filtres seront appliqués :
 1. **Cas par cas :** Affiche les résultats un par un en fonction du stock disponible.
 2. **Tri :** Affiche des résultats mixtes des différents canaux.
@@ -59,12 +59,12 @@ Choisissez comment les filtres seront appliqués :
 
 > **Note :** Le tri par cas par cas est utile pour des recherches plus spécifiques, tandis que le tri mixte est idéal pour une vue d'ensemble.
 
-### Configuration du score :
+### Configuration du score 
 Sélectionnez et ordonnez les critères pour créer le score du fournisseur.
 
 > **Astuce :** Placez les critères les plus importants en haut de la liste pour qu'ils aient plus de poids dans le calcul du score.
 
-### Limitation du nombre de résultats :
+### Limitation du nombre de résultats 
 Choisissez le nombre de résultats à afficher à l'utilisateur final (par défaut, les 10 premiers).
 
 ##  Application et gestion des configurations
