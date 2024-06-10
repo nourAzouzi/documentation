@@ -152,7 +152,7 @@ Les informations suivantes seront affichées :
             - Nom de la banque : Le nom de la banque du bénéficiaire.
             - Code BIC : Le code BIC (Bank Identifier Code) de la banque du bénéficiaire.
             - IBAN : Le numéro IBAN (International Bank Account Number) du bénéficiaire.
-            - Importer une justificative : Une justificative du transfert (ex : reçu de virement).
+            - Une justificative : Une justificative du transfert (ex : reçu de virement).
 
 
 
@@ -206,3 +206,7 @@ Les informations suivantes seront affichées :
 
 - Dans la colonne Actions du fournisseur que vous souhaitez supprimer, cliquez sur l'icône de la poubelle.
 - Confirmez la suppression dans la fenêtre pop-up qui apparaît.
+
+:::danger 
+Il est impossible de supprimer un fournisseur qui est lié à un ou plusieurs canaux.
+:::

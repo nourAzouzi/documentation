@@ -61,5 +61,5 @@ L'onglet "Informations générales" permet de saisir les détails essentiels pou
 **Sauvegarder :** Ce bouton reste désactivé tant que toutes les informations obligatoires ne sont pas saisies correctement. Une fois tous les champs requis remplis, le bouton s'active, permettant d'enregistrer les informations du nouveau canal.
 
 :::tip PASSAGE aux autres onglets "Rapprochement" et "Configuration de prévente"
-Vous ne pouvez accéder à l'onglet "Rapprochement" et "Configuration de prévente" qu'après avoir ajouté le fournisseur avec succès. Assurez-vous de remplir toutes les informations requises et de cliquer sur "Sauvegarder". Une fois le fournisseur ajouté, vous pourrez naviguer vers l'onglet "Portefeuille" pour ajouter des informations supplémentaires sur les services ou produits offerts par le fournisseur.
+Vous ne pouvez accéder à l'onglet "Rapprochement" et "Configuration de prévente" qu'après avoir ajouté le canal et tester sa connexion avec succès. Assurez-vous de remplir toutes les informations requises et de cliquer sur "Sauvegarder". Une fois le canal ajouté, vous pourrez naviguer vers les autres onglets
 :::

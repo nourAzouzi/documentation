@@ -61,7 +61,7 @@ const config: Config = {
       title: 'BePrime Tech',
       logo: {
         alt: ' ',
-        src: 'beSmartConnect.png',
+        src: 'img/betech.png',
       },
       items: [
         {
