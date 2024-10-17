@@ -3,7 +3,7 @@ sidebar_position: 7
 ---
 # Personnalisation des résultats
 
-## Introduction-
+## Introduction
 Cette interface vous permet de configurer et personnaliser l'affichage des résultats 
 ## Comment accéder à la Personnalisation des résultats ?
 Menu : Sélectionnez l'onglet "Personnalisation des résultats" dans le menu de navigation latéral gauche.

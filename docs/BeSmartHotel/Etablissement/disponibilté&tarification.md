@@ -3,6 +3,7 @@ sidebar_position: 6
 ---
 
 # Disponibilité et tarification
+##  Comment configurer la disponiblité et la tarification de votre établissment ?
 **Description :** Après une expérience fluide d’ajout et de création de vos produits ainsi les prestations y inhérentes, l’opérateur hôtelier est censé d’accomplir un autre processus simple et facile dédié à la détermination des différents contours de la tarification à savoir la gestion des périodes, les Termes de vente, les Conditions générales, les formules tarifaires, le tarif, la disponibilité et la promotion et l’application des taxes 
 ![Auth](/img/dispo&tarfication/period-managment.png)
 
